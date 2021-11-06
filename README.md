@@ -8,7 +8,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
+- [Our process](#our-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -33,7 +33,7 @@ Users should be able to:
 
 
 
-## My process
+## Our process
 Different members in the team committed parts of the project to make it complete.
 
 ### Built with
