@@ -70,6 +70,6 @@ Different members in the team committed parts of the project to make it complete
 ## Acknowledgments
 
 -The entire Group 14 team for working together and productively to make sure everyone did their part. 
--Lordsacastic for taking us through an introductory Git course.
+-Lord-sarcastic for taking us through an introductory Git course.
 
 
