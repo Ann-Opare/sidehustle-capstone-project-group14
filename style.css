@@ -18,7 +18,7 @@ html {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(114, 128, 167, 0.4)
+    background-color: rgba(233, 239, 255, 0.8);
 }
 
 .main-container{
@@ -26,10 +26,11 @@ html {
     background-color:white;
     border-radius: 20px;
     width: 350px;
-    height: 550px;
+    height: 560px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 18px 8px rgba(0, 0, 0, 0.05);  
 }
 
 .vibes-img {
@@ -82,8 +83,9 @@ html {
     text-decoration: underline;
     color: hsl(245, 75%, 52%);
     margin-top: 50px;
-    padding: 3.5em;
-    font-weight: 700;
+    margin-left: 60px;
+    font-size: 0.9em;
+    font-weight: 900;
 }
 .plan a:hover{
     text-decoration: none;
@@ -103,12 +105,12 @@ html {
     border-radius: 10px;
     color:white;
     font-size: 0.8em;
+    font-weight: 700;
     text-align: center;
-    box-shadow: 0px 14px 8px rgb(230, 235, 253);
-    
+    box-shadow: 0px 20px 9px rgba(230, 235, 253, 0.87);   
 }
 
-.payment a {
+#clickable-box {
     text-decoration: none;
     color: white;
     background-color: hsl(245, 75%, 52%);
@@ -118,18 +120,12 @@ html {
     opacity: 0.7;
 }
 
-button {
-    background-color: hsl(245, 75%, 52%);
-    color: white;
-    border: none;
-}
-
 .cancel {
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 1.1em;
-    background-color: white;
+    background-color: transparent;
     border-radius: 10px;
     color:grey;
     font-size: 0.8em;
@@ -147,3 +143,53 @@ button {
     color: black
 }
 
+/*Devsktop version width 1440px*/
+@media screen and (min-width: 1440px) {
+    .main-container{
+        width: 1440px;
+        height: 900px;
+    }
+
+    .vibes-img{
+        width: 1440px;
+        height: 450px;
+    }
+
+    .content h1{
+        margin: 10px;
+        padding: 10px;
+        font-size: 2.0rem;
+        color: rgb(26, 22, 22);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .content p{
+        font-size: 18px;
+    }
+
+    .plan{
+        display: flex;
+        background-color: hsl(228, 67%, 88%);
+        justify-content: space-between;
+        font-size: 17px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+
+    .payment:hover{
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        transform: scale(1.02);
+        opacity: 0.8;
+    }
+
+    .cancel{
+        font-size: 18px;
+    }
+
+    .cancel a:hover{
+        cursor: pointer;
+    }
+}
